@@ -1,23 +1,25 @@
 ---
 
-# 🌟 Cozy Yeot - Interactive Web Application 🌟
+# 📝 Todos App with Context API
 
-Welcome to **Cozy Yeot**! This project is an exciting and dynamic web application crafted to deliver a compelling user experience through interactive features and a responsive design.
+Welcome to the **Todos App**! This project is a task management application built with React and Context API, showcasing efficient state management and a clean, responsive user interface.
 
 ### 🌐 Live Demo
 
-Experience the app in action: [Cozy Yeot Live](https://cozy-yeot-7ba0c2.netlify.app/).
+Check out the live version here: [Todos App Live](https://todoscontextapi.netlify.app/).
+
+![Todos App Screenshot](https://user-images.githubusercontent.com/80989101/125601586-99e536f3-5d1c-4d4d-9375-7297b38c46f1.png)
 
 ## 🚀 Features
 
-- 🎨 **Vibrant Design**: A colorful and engaging user interface.
-- 📱 **Responsive Layout**: Perfectly adapts to various devices and screen sizes.
-- 💥 **Interactive Components**: Elements that respond dynamically to user interactions for a lively experience.
-- 🌈 **Modern UI/UX**: Smooth navigation and an intuitive design flow for users of all ages.
+- 📋 **Task Management**: Add, edit, and delete tasks with ease.
+- 📦 **Context API**: Centralized state management for seamless component communication.
+- 🌐 **Responsive Design**: Adapts to all device sizes, ensuring a smooth user experience.
+- 💾 **Persistent State**: Retains your tasks even after refreshing the page.
 
 ## 🛠️ Getting Started
 
-Follow these steps to set up and run the project locally.
+Follow these steps to set up the project locally.
 
 ### 📋 Prerequisites
 
@@ -29,8 +31,8 @@ Follow these steps to set up and run the project locally.
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/your-username/todos-app.git
+   cd todos-app
    ```
 
 2. **Install Dependencies**:
@@ -45,44 +47,37 @@ Follow these steps to set up and run the project locally.
    npm start
    ```
 
-   Visit the app at `http://localhost:3000`.
+   The app will be accessible at `http://localhost:3000`.
 
 ### 🏗️ Building for Production
 
-To create an optimized production build:
+To create a production build:
 
 ```bash
 npm run build
 ```
 
-This command generates a `build` folder with all the production-ready files.
+This command generates a `build` folder with optimized files ready for deployment.
 
 ### 🚀 Deploying to Netlify
 
 1. **Log in to Netlify**: [Netlify](https://www.netlify.com/).
-2. **Create a New Site** and connect it to your GitHub repository.
+2. **Create a New Site** and link it to your GitHub repository.
 3. **Set Build Command**: Use `npm run build`.
 4. **Publish Directory**: Set it to `build`.
-5. **Deploy**: Follow the on-screen instructions to deploy.
+5. **Deploy**: Follow the prompts to deploy your site.
 
-For more detailed steps, check out the [Netlify documentation](https://docs.netlify.com/).
+For more detailed instructions, refer to the [Netlify documentation](https://docs.netlify.com/).
 
 ## 📁 Project Structure
 
-Here's an overview of the project's directory layout:
-
 - **`src/`**: Contains all the source code.
-  - **`components/`**: Modular React components for various UI elements.
-  - **`assets/`**: Images, styles, and other static resources.
-  - **`App.jsx`**: The main application component.
-  - **`index.jsx`**: Entry point of the application.
-- **`public/`**: Publicly accessible files and assets.
-
-
-## 📜 About
-
-**Cozy Yeot** is built with a focus on interactivity and responsiveness, ensuring an engaging user experience across all devices. Whether you're using a smartphone, tablet, or desktop, Cozy Yeot adjusts perfectly to provide a seamless interface.
+  - **`components/`**: React components for different parts of the UI.
+  - **`contexts/`**: Contexts for state management using Context API.
+  - **`assets/`**: Static assets like images and CSS.
+  - **`App.jsx`**: Main application component.
+  - **`index.js`**: Entry point of the application.
+- **`public/`**: Public files and assets accessible from the root.
 
 ---
-
 
