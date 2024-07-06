@@ -78,15 +78,6 @@ Here's an overview of the project's directory layout:
   - **`index.jsx`**: Entry point of the application.
 - **`public/`**: Publicly accessible files and assets.
 
-## 📸 Screenshots
-
-### Homepage
-
-![Homepage](screenshots/homepage.png)
-
-### Interactive Elements
-
-![Interactive Elements](screenshots/interactive.png)
 
 ## 📜 About
 
