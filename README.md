@@ -8,7 +8,6 @@ Welcome to the **Todos App**! This project is a task management application buil
 
 Check out the live version here: [Todos App Live](https://todoscontextapi.netlify.app/).
 
-![Todos App Screenshot](https://user-images.githubusercontent.com/80989101/125601586-99e536f3-5d1c-4d4d-9375-7297b38c46f1.png)
 
 ## 🚀 Features
 
